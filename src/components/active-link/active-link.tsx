@@ -36,8 +36,8 @@ export const ActiveLink = () => {
             key={item.title}
             href={item.href}
             className={cn(
-              "text-sm font-medium transition-colors hover:text-blue-500",
-              isActive ? "text-blue-500" : "text-muted-foreground"
+              "text-action-sm transition-colors hover:text-blue-200",
+              isActive ? "text-blue-200" : "text-gray-100"
             )}
           >
             {item.title}
